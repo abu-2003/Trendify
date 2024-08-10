@@ -1,0 +1,174 @@
+body {  
+    margin: 0;
+    padding: 0;
+    background-color: #2f2046;
+}
+header {
+    font-family: "Jersey 25", sans-serif;
+    background-color: #333;
+    color: #fdfdfd;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+header nav ul li a {
+    font-family: "Anton SC", sans-serif;
+    color: #ffbcbc;
+    text-decoration: none;
+    font-weight: 300;
+}
+header nav ul li a:hover{
+    color:rgb(236, 20, 20);
+    font-weight: 600;
+    
+}
+.home{
+    background: url('https://img.freepik.com/premium-photo/variety-smartphones-are-arranged-dark-background-phones-are-shown-different-colors-styles-they-are-all-facing-viewer_14117-43164.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 10% 20px;
+    text-align: center;
+}
+
+.home h2 {
+    font-family:  "Josefin Sans", sans-serif;
+    color: #ffffff;
+    font-size: 2.5em;
+}
+
+.shop {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.shop:hover {
+    transform: scale(1.05);
+    
+    
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #c7defe;
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+
+.product-card img {
+    padding-top: 5%;
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.product-info h3 {
+    margin: 0;
+}
+
+.product-details {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 15px;
+    background-color: #f9f9f9;
+    display: none;
+}
+
+.product-card:hover .product-details {
+    display: block;
+}
+
+.product-card:hover {
+    transform: scale(1.02);
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;   
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+footer ul li {
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+
+}
+.icon{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    
+}
+.icon:hover{
+    color: rgb(17, 190, 220);
+    
+}
+
